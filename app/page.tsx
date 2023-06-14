@@ -1,9 +1,5 @@
 import './page.css'
 
-export const metadata = {
-  title: 'Support',
-}
-
 export default function Home() {
   return (
     <article id="50f95503-e826-4052-8e78-d4173ad7c3b8" className="page sans">
