@@ -3,10 +3,6 @@ import { readFile } from 'fs/promises'
 import { metadata } from './layout'
 import './page.css'
 
-function joinClasses(...classes: string[]) {
-  return classes.join(' ')
-}
-
 export default async function Home() {
   const csv = await readFile('app/support.csv', { encoding: 'utf8' })
   const [header, ...lines] = csv
@@ -39,13 +35,12 @@ export default async function Home() {
   }
 
   return (
-    <article className="page sans">
+    <article>
       <header>
-        <h1 className="page-title">{metadata.title}</h1>
-        <p className="page-description"></p>
+        <h1>{metadata.title}</h1>
       </header>
-      <div className="page-body">
-        <table className="collection-content">
+      <div>
+        <table>
           <thead>
             <tr>
               <th>Name</th>
@@ -56,32 +51,19 @@ export default async function Home() {
           <tbody>
             {entries.map(({ Name, Category, Status, URL }) => (
               <tr>
-                <td className="cell-title">
-                  {URL ? <a href={URL}>{Name}</a> : Name}
-                </td>
+                <td>{URL ? <a href={URL}>{Name}</a> : Name}</td>
                 <td>
                   <span
-                    className={joinClasses(
+                    className={[
                       'selected-value',
-                      `select-value-color-${colors.category.get(Category)}`
-                    )}
+                      `color-${colors.category.get(Category)}`,
+                    ].join(' ')}
                   >
                     {Category}
                   </span>
                 </td>
                 <td>
-                  <span
-                    className={joinClasses(
-                      'status-value',
-                      `select-value-color-${colors.status.get(Status)}`
-                    )}
-                  >
-                    <div
-                      className={joinClasses(
-                        'status-dot',
-                        `status-dot-color-${colors.status.get(Status)}`
-                      )}
-                    ></div>
+                  <span className={`color-${colors.status.get(Status)}`}>
                     {Status}
                   </span>
                 </td>
