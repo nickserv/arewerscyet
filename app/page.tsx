@@ -32,22 +32,22 @@ export default async function Home() {
             </tr>
           </thead>
           <tbody>
-            {entries.map(({ Name, Category, Status, URL }) => (
+            {entries.map(({ name, category, status, url }) => (
               <tr>
-                <td>{URL ? <a href={URL}>{Name}</a> : Name}</td>
+                <td>{url ? <a href={url}>{name}</a> : name}</td>
                 <td>
                   <span
                     className={[
                       'selected-value',
-                      `color-${colors.category.get(Category)}`,
+                      `color-${colors.category.get(category)}`,
                     ].join(' ')}
                   >
-                    {Category}
+                    {category}
                   </span>
                 </td>
                 <td>
-                  <span className={`color-${colors.status.get(Status)}`}>
-                    {Status}
+                  <span className={`color-${colors.status.get(status)}`}>
+                    {status}
                   </span>
                 </td>
               </tr>

@@ -1,49 +1,49 @@
 ﻿[
   {
-    "Name": "Astro",
-    "Category": "Meta Framework",
-    "Status": "Unsupported"
+    "name": "Astro",
+    "category": "Meta Framework",
+    "status": "Unsupported"
   },
   {
-    "Name": "Preact",
-    "Category": "Framework",
-    "Status": "Unsupported",
-    "URL": "https://github.com/preactjs/preact/discussions/2879#discussioncomment-234815"
+    "name": "Preact",
+    "category": "Framework",
+    "status": "Unsupported",
+    "url": "https://github.com/preactjs/preact/discussions/2879#discussioncomment-234815"
   },
   {
-    "Name": "React Testing Library",
-    "Category": "Tool",
-    "Status": "Planned",
-    "URL": "https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305"
+    "name": "React Testing Library",
+    "category": "Tool",
+    "status": "Planned",
+    "url": "https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305"
   },
   {
-    "Name": "Remix",
-    "Category": "Meta Framework",
-    "Status": "Planned",
-    "URL": "https://remix.run/blog/react-server-components"
+    "name": "Remix",
+    "category": "Meta Framework",
+    "status": "Planned",
+    "url": "https://remix.run/blog/react-server-components"
   },
   {
-    "Name": "Redwood",
-    "Category": "Meta Framework",
-    "Status": "Planned",
-    "URL": "https://redwoodjs.notion.site/Public-Roadmap-6ade052af6414aca897cfd0bf3ae0641"
+    "name": "Redwood",
+    "category": "Meta Framework",
+    "status": "Planned",
+    "url": "https://redwoodjs.notion.site/Public-Roadmap-6ade052af6414aca897cfd0bf3ae0641"
   },
   {
-    "Name": "React",
-    "Category": "Framework",
-    "Status": "Canary",
-    "URL": "https://react.dev/blog/2023/05/03/react-canaries"
+    "name": "React",
+    "category": "Framework",
+    "status": "Canary",
+    "url": "https://react.dev/blog/2023/05/03/react-canaries"
   },
   {
-    "Name": "TypeScript",
-    "Category": "Tool",
-    "Status": "Stable",
-    "URL": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types"
+    "name": "TypeScript",
+    "category": "Tool",
+    "status": "Stable",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types"
   },
   {
-    "Name": "Next (app router)",
-    "Category": "Meta Framework",
-    "Status": "Stable",
-    "URL": "https://nextjs.org/docs/app/building-your-application/routing"
+    "name": "Next (app router)",
+    "category": "Meta Framework",
+    "status": "Stable",
+    "url": "https://nextjs.org/docs/app/building-your-application/routing"
   }
 ]
