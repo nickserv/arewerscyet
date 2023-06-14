@@ -27,14 +27,14 @@ export default async function Home() {
 
   const colors = {
     category: new Map([
-    ['Framework', 'blue'],
-    ['Meta Framework', 'green'],
-    ['Tool', 'gray'],
+      ['Framework', 'blue'],
+      ['Meta Framework', 'green'],
+      ['Tool', 'gray'],
     ]),
     status: new Map([
-    ['Planned', 'gray'],
-    ['Canary', 'yellow'],
-    ['Stable', 'green'],
+      ['Planned', 'gray'],
+      ['Canary', 'yellow'],
+      ['Stable', 'green'],
     ]),
   }
 
@@ -48,15 +48,17 @@ export default async function Home() {
         <table className="collection-content">
           <thead>
             <tr>
-              {Object.keys(entries[0]).map((value) => (
-                <th>{value}</th>
-              ))}
+              <th>Name</th>
+              <th>Category</th>
+              <th>Status</th>
             </tr>
           </thead>
           <tbody>
             {entries.map(({ Name, Category, Status, URL }) => (
               <tr>
-                <td className="cell-title">{Name}</td>
+                <td className="cell-title">
+                  {URL ? <a href={URL}>{Name}</a> : Name}
+                </td>
                 <td>
                   <span
                     className={joinClasses(
@@ -82,11 +84,6 @@ export default async function Home() {
                     ></div>
                     {Status}
                   </span>
-                </td>
-                <td>
-                  <a href={URL} className="url-value">
-                    {URL}
-                  </a>
                 </td>
               </tr>
             ))}
