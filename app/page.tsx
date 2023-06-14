@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
+import data from './data.json'
 import { metadata } from './layout'
 import './page.css'
-import entries from './support.json'
 
 export default async function Home() {
   const colors = {
@@ -32,7 +32,7 @@ export default async function Home() {
             </tr>
           </thead>
           <tbody>
-            {entries.map(({ name, category, status, url }) => (
+            {data.map(({ name, category, status, url }) => (
               <tr>
                 <td>{url ? <a href={url}>{name}</a> : name}</td>
                 <td>
