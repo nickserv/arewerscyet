@@ -1,26 +1,9 @@
 /* eslint-disable react/jsx-key */
-import { readFile } from 'fs/promises'
 import { metadata } from './layout'
 import './page.css'
+import entries from './support.json'
 
 export default async function Home() {
-  const csv = await readFile('app/support.csv', { encoding: 'utf8' })
-  const [header, ...lines] = csv
-    .trim()
-    .split('\n')
-    .map((line) => line.trimEnd().split(','))
-  const entries = lines.map(
-    (line) =>
-      Object.fromEntries(
-        line.map((value, index) => [header[index], value || undefined])
-      ) as {
-        Name: string
-        Category: string
-        Status: string
-        URL?: string
-      }
-  )
-
   const colors = {
     category: new Map([
       ['Framework', 'blue'],

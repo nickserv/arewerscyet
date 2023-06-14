@@ -1,0 +1,49 @@
+﻿[
+  {
+    "Name": "Astro",
+    "Category": "Meta Framework",
+    "Status": "Unsupported"
+  },
+  {
+    "Name": "Preact",
+    "Category": "Framework",
+    "Status": "Unsupported",
+    "URL": "https://github.com/preactjs/preact/discussions/2879#discussioncomment-234815"
+  },
+  {
+    "Name": "React Testing Library",
+    "Category": "Tool",
+    "Status": "Planned",
+    "URL": "https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305"
+  },
+  {
+    "Name": "Remix",
+    "Category": "Meta Framework",
+    "Status": "Planned",
+    "URL": "https://remix.run/blog/react-server-components"
+  },
+  {
+    "Name": "Redwood",
+    "Category": "Meta Framework",
+    "Status": "Planned",
+    "URL": "https://redwoodjs.notion.site/Public-Roadmap-6ade052af6414aca897cfd0bf3ae0641"
+  },
+  {
+    "Name": "React",
+    "Category": "Framework",
+    "Status": "Canary",
+    "URL": "https://react.dev/blog/2023/05/03/react-canaries"
+  },
+  {
+    "Name": "TypeScript",
+    "Category": "Tool",
+    "Status": "Stable",
+    "URL": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types"
+  },
+  {
+    "Name": "Next (app router)",
+    "Category": "Meta Framework",
+    "Status": "Stable",
+    "URL": "https://nextjs.org/docs/app/building-your-application/routing"
+  }
+]

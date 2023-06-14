@@ -1,9 +1,0 @@
-﻿Name,Category,Status,URL
-Astro,Meta Framework,Unsupported,
-Preact,Framework,Unsupported,https://github.com/preactjs/preact/discussions/2879#discussioncomment-234815
-React Testing Library,Tool,Planned,https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305
-Remix,Meta Framework,Planned,https://remix.run/blog/react-server-components
-Redwood,Meta Framework,Planned,https://redwoodjs.notion.site/Public-Roadmap-6ade052af6414aca897cfd0bf3ae0641
-React,Framework,Canary,https://react.dev/blog/2023/05/03/react-canaries
-TypeScript,Tool,Stable,https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types
-Next (app router),Meta Framework,Stable,https://nextjs.org/docs/app/building-your-application/routing
