@@ -25,16 +25,18 @@ export default async function Home() {
       }
   )
 
-  const categoryColors = new Map([
+  const colors = {
+    category: new Map([
     ['Framework', 'blue'],
     ['Meta Framework', 'green'],
     ['Tool', 'gray'],
-  ])
-  const statusColors = new Map([
+    ]),
+    status: new Map([
     ['Planned', 'gray'],
     ['Canary', 'yellow'],
     ['Stable', 'green'],
-  ])
+    ]),
+  }
 
   return (
     <article className="page sans">
@@ -59,7 +61,7 @@ export default async function Home() {
                   <span
                     className={joinClasses(
                       'selected-value',
-                      `select-value-color-${categoryColors.get(Category)}`
+                      `select-value-color-${colors.category.get(Category)}`
                     )}
                   >
                     {Category}
@@ -69,13 +71,13 @@ export default async function Home() {
                   <span
                     className={joinClasses(
                       'status-value',
-                      `select-value-color-${statusColors.get(Status)}`
+                      `select-value-color-${colors.status.get(Status)}`
                     )}
                   >
                     <div
                       className={joinClasses(
                         'status-dot',
-                        `status-dot-color-${statusColors.get(Status)}`
+                        `status-dot-color-${colors.status.get(Status)}`
                       )}
                     ></div>
                     {Status}
