@@ -313,54 +313,11 @@ time {
   opacity: 0.5;
 }
 
-.icon {
-  display: inline-block;
-  max-width: 1.2em;
-  max-height: 1.2em;
-  text-decoration: none;
-  vertical-align: text-bottom;
-  margin-right: 0.5em;
-}
-
-img.icon {
-  border-radius: 3px;
-}
-
-.user-icon {
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 100%;
-  margin-right: 0.5rem;
-}
-
-.user-icon-inner {
-  font-size: 0.8em;
-}
-
-.text-icon {
-  border: 1px solid #000;
-  text-align: center;
-}
-
 .page-cover-image {
   display: block;
   object-fit: cover;
   width: 100%;
   max-height: 30vh;
-}
-
-.page-header-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.page-header-icon-with-cover {
-  margin-top: -0.72em;
-  margin-left: 0.07em;
-}
-
-.page-header-icon img {
-  border-radius: 3px;
 }
 
 .link-to-page {
