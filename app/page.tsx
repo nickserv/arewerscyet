@@ -1,10 +1,11 @@
 import './page.css'
+import { metadata } from './layout'
 
 export default function Home() {
   return (
     <article id="50f95503-e826-4052-8e78-d4173ad7c3b8" className="page sans">
       <header>
-        <h1 className="page-title">Support</h1>
+        <h1 className="page-title">{metadata.title}</h1>
         <p className="page-description"></p>
       </header>
       <div className="page-body">
