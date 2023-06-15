@@ -35,6 +35,12 @@
     "url": "https://react.dev/blog/2023/05/03/react-canaries"
   },
   {
+    "name": "Storybook",
+    "category": "Tool",
+    "status": "Planned",
+    "url": "https://github.com/storybookjs/storybook/issues/21540"
+  },
+  {
     "name": "TypeScript",
     "category": "Tool",
     "status": "Stable",
