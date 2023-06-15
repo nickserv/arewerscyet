@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-key */
+import { Fragment } from 'react'
 import data from './data.json'
 import { metadata } from './layout'
 import './page.css'
@@ -16,7 +16,7 @@ export default function Home() {
         <h1>{metadata.title}</h1>
       </header>
       {['Framework', 'Meta Framework', 'Tool'].map((sortCategory) => (
-        <>
+        <Fragment key={sortCategory}>
           <h2>{sortCategory}s</h2>
           <table>
             <thead>
@@ -29,7 +29,7 @@ export default function Home() {
               {data
                 .filter(({ category }) => category === sortCategory)
                 .map(({ name, status, url }) => (
-                  <tr>
+                  <tr key={name}>
                     <td>{url ? <a href={url}>{name}</a> : name}</td>
                     <td>
                       <span className={`color-${statusColors.get(status)}`}>
@@ -40,7 +40,7 @@ export default function Home() {
                 ))}
             </tbody>
           </table>
-        </>
+        </Fragment>
       ))}
     </article>
   )
