@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
-import data from './data.json'
 import { metadata } from './layout'
 import './page.css'
+import data from './page.json'
 
 export default function Home() {
   const statusEmoji = new Map([
