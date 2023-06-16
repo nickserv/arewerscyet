@@ -21,9 +21,9 @@ export default function Home() {
             .filter(({ category }) => category === sortCategory)
             .map(({ name, status, url }) => (
               <Fragment key={name}>
-                <a href={url}>
-                  <h3>{name}</h3>
-                </a>
+                <h3>
+                  <a href={url}>{name}</a>
+                </h3>
                 <p>
                   {statusEmoji.get(status)} {status}
                 </p>
