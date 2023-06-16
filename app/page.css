@@ -1,93 +1,9 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
 }
 
-body {
-  font-family: system-ui;
-  line-height: 1.5;
-  white-space: pre-wrap;
-  margin: 2em auto;
-  max-width: 900px;
-  color: rgb(55, 53, 47);
-}
-
-a,
-a.visited {
-  color: inherit;
-}
-
-h1,
-h2,
-h3 {
-  letter-spacing: -0.01em;
-  line-height: 1.2;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 0.75em;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-h3 {
-  font-size: 1.25rem;
-  margin-top: 1.25rem;
-}
-
-table,
-th,
-td {
-  font-size: 0.875rem;
-  border: 1px solid rgba(55, 53, 47, 0.09);
-  border-collapse: collapse;
-}
-
-table {
-  border-left: none;
-  border-right: none;
-}
-
-th,
-td {
-  font-weight: normal;
-  padding: 0.25em 0.5em;
-  text-align: left;
-}
-
-th {
-  color: rgba(55, 53, 47, 0.6);
-}
-
-.selected-value {
-  display: inline-block;
-  padding: 0 0.5em;
-  background: rgba(206, 205, 202, 0.5);
-  border-radius: 3px;
-  margin-right: 0.5em;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  white-space: nowrap;
-}
-
-.color-green {
-  background-color: rgba(219, 237, 219, 1);
-}
-.color-gray {
-  background-color: rgba(227, 226, 224, 1);
-}
-.color-yellow {
-  background-color: rgba(253, 236, 200, 1);
-}
-.color-blue {
-  background-color: rgba(211, 229, 239, 1);
+a {
+  text-decoration: none;
 }

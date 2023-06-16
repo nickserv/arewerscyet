@@ -4,44 +4,29 @@ import { metadata } from './layout'
 import './page.css'
 
 export default function Home() {
-  const statusColors = new Map([
-    ['Planned', 'gray'],
-    ['Canary', 'yellow'],
-    ['Stable', 'green'],
+  const statusEmoji = new Map([
+    ['Unsupported', '🚫'],
+    ['Planned', '💬'],
+    ['Canary', '🦜'],
+    ['Stable', '✅'],
   ])
 
   return (
-    <article>
-      <header>
-        <h1>{metadata.title}</h1>
-      </header>
+    <>
+      <h1>{metadata.title}</h1>
       {['Framework', 'Meta Framework', 'Tool'].map((sortCategory) => (
         <Fragment key={sortCategory}>
           <h2>{sortCategory}s</h2>
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              {data
-                .filter(({ category }) => category === sortCategory)
-                .map(({ name, status, url }) => (
-                  <tr key={name}>
-                    <td>{url ? <a href={url}>{name}</a> : name}</td>
-                    <td>
-                      <span className={`color-${statusColors.get(status)}`}>
-                        {status}
-                      </span>
-                    </td>
-                  </tr>
-                ))}
-            </tbody>
-          </table>
+          {data
+            .filter(({ category }) => category === sortCategory)
+            .map(({ name, status, url }) => (
+              <a href={url} key={name}>
+                <h3>{name}</h3>
+                {statusEmoji.get(status)} {status}
+              </a>
+            ))}
         </Fragment>
       ))}
-    </article>
+    </>
   )
 }
