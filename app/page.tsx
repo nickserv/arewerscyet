@@ -20,10 +20,14 @@ export default function Home() {
           {data
             .filter(({ category }) => category === sortCategory)
             .map(({ name, status, url }) => (
-              <a href={url} key={name}>
-                <h3>{name}</h3>
-                {statusEmoji.get(status)} {status}
-              </a>
+              <Fragment key={name}>
+                <a href={url}>
+                  <h3>{name}</h3>
+                </a>
+                <p>
+                  {statusEmoji.get(status)} {status}
+                </p>
+              </Fragment>
             ))}
         </Fragment>
       ))}
