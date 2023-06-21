@@ -36,16 +36,21 @@ export default function Home() {
         ([category, data]) => (
           <Fragment key={category}>
             <h2>{category}s</h2>
-            {data.map(({ name, status, url }) => (
-              <Fragment key={name}>
-                <h3>
-                  <a href={url}>{name}</a>
-                </h3>
-                <p>
-                  {statusEmoji.get(status)} {status}
-                </p>
-              </Fragment>
-            ))}
+            {Array.from(
+              Map.groupBy(data, ({ status }) => status),
+              ([status, data]) => (
+                <Fragment key={status}>
+                  <h3>
+                    {statusEmoji.get(status)} {status}
+                  </h3>
+                  {data.map(({ name, url }) => (
+                    <h4 key={name}>
+                      <a href={url}>{name}</a>
+                    </h4>
+                  ))}
+                </Fragment>
+              )
+            )}
           </Fragment>
         )
       )}
