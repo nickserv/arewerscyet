@@ -1,11 +1,9 @@
-@media (prefers-color-scheme: dark) {
-  html {
+html {
+  font-family: system-ui;
+
+  @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
-}
-
-body {
-  font-family: system-ui;
 }
 
 a {
