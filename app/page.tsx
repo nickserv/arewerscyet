@@ -4,22 +4,6 @@ import { metadata } from './layout'
 import './page.css'
 import data from './page.json'
 
-declare global {
-  interface ObjectConstructor {
-    groupBy<T>(
-      items: Iterable<T>,
-      callbackfn: (value: T, index: number) => string,
-    ): Record<string, T[]>
-  }
-
-  interface MapConstructor {
-    groupBy<T, U>(
-      items: Iterable<T>,
-      callbackfn: (value: T, index: number) => U,
-    ): Map<U, T[]>
-  }
-}
-
 export default function Home() {
   const statusEmoji = new Map([
     ['Unsupported', '🚫'],
