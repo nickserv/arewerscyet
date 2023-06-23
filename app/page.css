@@ -4,6 +4,10 @@
   }
 }
 
+body {
+  font-family: system-ui;
+}
+
 a {
   text-decoration: none;
 }
