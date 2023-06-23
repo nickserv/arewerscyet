@@ -1,7 +1,4 @@
-import { Inter } from 'next/font/google'
 import Script from 'next/script'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Are we RSC yet?',
@@ -24,7 +21,7 @@ export default function RootLayout({
           gtag('config', 'UA-22970573-1');
         `}
       </Script>
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
