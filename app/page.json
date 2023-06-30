@@ -1,55 +1,61 @@
 ﻿[
   {
-    "name": "Astro",
-    "category": "Meta Framework",
-    "status": "Unsupported"
-  },
-  {
-    "name": "Preact",
     "category": "Framework",
-    "status": "Unsupported",
-    "url": "https://github.com/preactjs/preact/discussions/2879#discussioncomment-234815"
+    "entries": [
+      {
+        "name": "Preact",
+        "status": "Unsupported",
+        "url": "https://github.com/preactjs/preact/discussions/2879#discussioncomment-234815"
+      },
+      {
+        "name": "React",
+        "status": "Canary",
+        "url": "https://react.dev/blog/2023/05/03/react-canaries"
+      }
+    ]
   },
   {
-    "name": "React Testing Library",
-    "category": "Tool",
-    "status": "Planned",
-    "url": "https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305"
-  },
-  {
-    "name": "Remix",
     "category": "Meta Framework",
-    "status": "Planned",
-    "url": "https://remix.run/blog/react-server-components"
+    "entries": [
+      {
+        "name": "Astro",
+        "status": "Unsupported"
+      },
+      {
+        "name": "Remix",
+        "status": "Planned",
+        "url": "https://remix.run/blog/react-server-components"
+      },
+      {
+        "name": "Redwood",
+        "status": "Planned",
+        "url": "https://redwoodjs.notion.site/Public-Roadmap-6ade052af6414aca897cfd0bf3ae0641"
+      },
+      {
+        "name": "Next (app router)",
+        "status": "Stable",
+        "url": "https://nextjs.org/docs/app/building-your-application/routing"
+      }
+    ]
   },
   {
-    "name": "Redwood",
-    "category": "Meta Framework",
-    "status": "Planned",
-    "url": "https://redwoodjs.notion.site/Public-Roadmap-6ade052af6414aca897cfd0bf3ae0641"
-  },
-  {
-    "name": "React",
-    "category": "Framework",
-    "status": "Canary",
-    "url": "https://react.dev/blog/2023/05/03/react-canaries"
-  },
-  {
-    "name": "Storybook",
     "category": "Tool",
-    "status": "Planned",
-    "url": "https://github.com/storybookjs/storybook/issues/21540"
-  },
-  {
-    "name": "TypeScript",
-    "category": "Tool",
-    "status": "Stable",
-    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types"
-  },
-  {
-    "name": "Next (app router)",
-    "category": "Meta Framework",
-    "status": "Stable",
-    "url": "https://nextjs.org/docs/app/building-your-application/routing"
+    "entries": [
+      {
+        "name": "React Testing Library",
+        "status": "Planned",
+        "url": "https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305"
+      },
+      {
+        "name": "Storybook",
+        "status": "Planned",
+        "url": "https://github.com/storybookjs/storybook/issues/21540"
+      },
+      {
+        "name": "TypeScript",
+        "status": "Stable",
+        "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types"
+      }
+    ]
   }
 ]

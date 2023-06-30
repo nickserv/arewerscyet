@@ -15,24 +15,21 @@ export default function Home() {
   return (
     <>
       <h1>{metadata.title}</h1>
-      {Array.from(
-        Map.groupBy(data, ({ category }) => category),
-        ([category, data]) => (
-          <Fragment key={category}>
-            <h2>{category}s</h2>
-            {data.map(({ name, status, url }) => (
-              <Fragment key={name}>
-                <h3>
-                  <a href={url}>{name}</a>
-                </h3>
-                <p>
-                  {statusEmoji.get(status)} {status}
-                </p>
-              </Fragment>
-            ))}
-          </Fragment>
-        ),
-      )}
+      {data.map(({ category, entries }) => (
+        <Fragment key={category}>
+          <h2>{category}s</h2>
+          {entries.map(({ name, status, url }) => (
+            <Fragment key={name}>
+              <h3>
+                <a href={url}>{name}</a>
+              </h3>
+              <p>
+                {statusEmoji.get(status)} {status}
+              </p>
+            </Fragment>
+          ))}
+        </Fragment>
+      ))}
     </>
   )
 }
