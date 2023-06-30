@@ -1,6 +1,6 @@
 ﻿[
   {
-    "category": "Framework",
+    "category": "Frameworks",
     "entries": [
       {
         "name": "Preact",
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "category": "Meta Framework",
+    "category": "Meta Frameworks",
     "entries": [
       {
         "name": "Astro",
@@ -39,7 +39,7 @@
     ]
   },
   {
-    "category": "Tool",
+    "category": "Tools",
     "entries": [
       {
         "name": "React Testing Library",

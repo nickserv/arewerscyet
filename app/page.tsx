@@ -17,7 +17,7 @@ export default function Home() {
       <h1>{metadata.title}</h1>
       {data.map(({ category, entries }) => (
         <Fragment key={category}>
-          <h2>{category}s</h2>
+          <h2>{category}</h2>
           {entries.map(({ name, status, url }) => (
             <Fragment key={name}>
               <h3>
