@@ -60,6 +60,11 @@
         "url": "https://github.com/storybookjs/storybook/issues/21540"
       },
       {
+        "name": "Mock Service Worker  ",
+        "status": "In development",
+        "url": "https://github.com/mswjs/msw/pull/1617"
+      },
+      {
         "name": "TypeScript",
         "status": "Stable",
         "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types"
