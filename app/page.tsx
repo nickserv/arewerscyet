@@ -1,7 +1,6 @@
 import 'core-js/proposals/array-grouping-v2'
 import { Fragment } from 'react'
 import { metadata } from './layout'
-import './page.css'
 import data from './page.json'
 
 export default function Home() {
