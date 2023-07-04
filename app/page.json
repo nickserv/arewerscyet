@@ -11,6 +11,10 @@
         "name": "React",
         "status": "Canary",
         "url": "https://react.dev/blog/2023/05/03/react-canaries"
+      },
+      {
+        "name": "Panda",
+        "status": "Stable"
       }
     ]
   },
