@@ -13,6 +13,10 @@
         "url": "https://react.dev/blog/2023/05/03/react-canaries"
       },
       {
+        "name": "Tailwind",
+        "status": "Stable"
+      },
+      {
         "name": "Panda",
         "status": "Stable"
       }
