@@ -1,11 +1,11 @@
 html {
-  font-family: system-ui;
+	font-family: system-ui;
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+	@media (prefers-color-scheme: dark) {
+		color-scheme: dark;
+	}
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
