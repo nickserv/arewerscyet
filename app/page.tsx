@@ -1,8 +1,19 @@
 import "core-js/proposals/array-grouping-v2";
-import { Fragment } from "react";
+import { Fragment, HTMLAttributes } from "react";
 import { metadata } from "./layout";
 import "./page.css";
 import data from "./page.json";
+
+function Heading({
+	level = 1,
+	...props
+}: {
+	level?: 1 | 2 | 3;
+} & HTMLAttributes<HTMLHeadingElement>) {
+	const Component: keyof JSX.IntrinsicElements = `h${level}`;
+	const fontSize = `${1.333 ** (4 - level)}em`;
+	return <Component {...props} style={{ fontSize, ...props.style }} />;
+}
 
 export default function Home() {
 	const statusEmoji = new Map([
@@ -15,15 +26,15 @@ export default function Home() {
 
 	return (
 		<>
-			<h1>{metadata.title}</h1>
+			<Heading>{metadata.title}</Heading>
 			{data.map(({ category, entries }) => (
 				<Fragment key={category}>
-					<h2>{category}</h2>
+					<Heading level={2}>{category}</Heading>
 					{entries.map(({ name, status, url }) => (
 						<Fragment key={name}>
-							<h3>
+							<Heading level={3}>
 								<a href={url}>{name}</a>
-							</h3>
+							</Heading>
 							<p>
 								{statusEmoji.get(status)} {status}
 							</p>
