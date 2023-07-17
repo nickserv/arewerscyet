@@ -60,7 +60,7 @@
 				"url": "https://github.com/storybookjs/storybook/issues/21540"
 			},
 			{
-				"name": "Mock Service Worker  ",
+				"name": "Mock Service Worker",
 				"status": "In development",
 				"url": "https://github.com/mswjs/msw/pull/1617"
 			},
