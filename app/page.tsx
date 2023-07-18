@@ -1,4 +1,3 @@
-import "core-js/proposals/array-grouping-v2";
 import { Fragment } from "react";
 import { metadata } from "./layout";
 import "./page.css";

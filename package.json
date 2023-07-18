@@ -9,11 +9,9 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@types/core-js": "^2.5.5",
 		"@types/node": "20.3.1",
 		"@types/react": "18.2.12",
 		"@types/react-dom": "18.2.5",
-		"core-js": "^3.31.0",
 		"eslint": "8.42.0",
 		"eslint-config-next": "13.4.5",
 		"next": "13.4.8",
