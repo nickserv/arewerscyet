@@ -36,8 +36,8 @@
 			},
 			{
 				"name": "Redwood",
-				"status": "Planned",
-				"url": "https://redwoodjs.notion.site/Public-Roadmap-6ade052af6414aca897cfd0bf3ae0641"
+				"status": "Canary",
+				"url": "https://community.redwoodjs.com/t/react-server-components-rsc/5081"
 			},
 			{
 				"name": "Next (app router)",
