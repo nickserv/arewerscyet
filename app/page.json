@@ -40,7 +40,7 @@
 				"url": "https://community.redwoodjs.com/t/react-server-components-rsc/5081"
 			},
 			{
-				"name": "Next (app router)",
+				"name": "Next",
 				"status": "Stable",
 				"url": "https://nextjs.org/docs/app/building-your-application/routing"
 			}
