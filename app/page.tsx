@@ -30,6 +30,12 @@ export default function Home() {
 					))}
 				</Fragment>
 			))}
+			<h2>Related Resources</h2>
+			<h3>
+				<a href="https://github.com/reactwg/server-components/discussions/6">
+					Libraries that support RSCs
+				</a>
+			</h3>
 		</>
 	);
 }
