@@ -2,6 +2,7 @@ import Script from "next/script";
 
 export const metadata = {
 	title: "Are we RSC yet?",
+	description: "Open data on React Server Component support",
 };
 
 export default function RootLayout({

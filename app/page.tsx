@@ -15,6 +15,7 @@ export default function Home() {
 		<>
 			<header>
 				<h1>{metadata.title}</h1>
+				<p>{metadata.description}</p>
 			</header>
 
 			<main>
