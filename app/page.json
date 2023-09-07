@@ -74,5 +74,104 @@
 				"url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types"
 			}
 		]
+	},
+	{
+		"category": "Libraries",
+		"entries": [
+			{
+				"name": "bright",
+				"url": "https://github.com/code-hike/bright"
+			},
+			{
+				"name": "rehype-pretty-code",
+				"url": "https://rehype-pretty-code.netlify.app"
+			},
+			{
+				"name": "react-perfect-syntax-highlighter",
+				"url": "https://github.com/tom-sherman/react-perfect-syntax-highlighter"
+			},
+			{
+				"name": "react-tweet",
+				"url": "https://react-tweet.vercel.app/"
+			},
+			{
+				"name": "react-graphs-svg",
+				"url": "https://github.com/schemburkar/react-graphs-svg"
+			},
+			{
+				"name": "spectacle",
+				"url": "https://formidable.com/open-source/spectacle/docs/tutorial/#option-two-using-nextjs-app-router-to-bootstrap-a-react-based-spectacle-app"
+			},
+			{
+				"name": "@storyblok/react",
+				"url": "https://github.com/storyblok/storyblok-react"
+			},
+			{
+				"name": "@portabletext/react",
+				"url": "https://github.com/portabletext/react-portabletext"
+			},
+			{
+				"name": "contentlayer",
+				"url": "https://www.contentlayer.dev/"
+			},
+			{
+				"name": "react-datocms",
+				"url": "https://www.npmjs.com/package/react-datocms/v/4.1.3"
+			},
+			{
+				"name": "CSS Modules"
+			},
+			{
+				"name": "PostCSS"
+			},
+			{
+				"name": "tailwindcss",
+				"url": "https://tailwindcss.com/"
+			},
+			{
+				"name": "kuma-ui",
+				"url": "https://kuma-ui.com/"
+			},
+			{
+				"name": "pandacss",
+				"url": "https://panda-css.com/"
+			},
+			{
+				"name": "style9",
+				"url": "https://github.com/johanholmerin/style9"
+			},
+			{
+				"name": "tamagui",
+				"url": "https://tamagui.dev/docs/guides/next-js#server-components"
+			},
+			{
+				"name": "tss-react",
+				"url": "https://tss-react.dev/"
+			},
+			{
+				"name": "vanilla-extract",
+				"url": "https://github.com/vercel/next.js/tree/canary/examples/with-vanilla-extract"
+			},
+			{
+				"name": "rewind-ui",
+				"url": "https://github.com/rewindui/rewindui"
+			},
+			{
+				"name": "@mui/material",
+				"url": "https://mui.com/material-ui/guides/next-js-app-router/"
+			},
+			{
+				"name": "@tanstack/react-query",
+				"url": "https://tanstack.com/query/v4/docs/react/guides/ssr#using-the-app-directory-in-nextjs-13"
+			},
+			{
+				"name": "@apollo/experimental-nextjs-app-support",
+				"url": "https://github.com/apollographql/apollo-client-nextjs"
+			},
+			{
+				"name": "react-wrap-balancer",
+				"url": "https://react-wrap-balancer.vercel.app/"
+			}
+		]
 	}
 ]
