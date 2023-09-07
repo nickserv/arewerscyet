@@ -54,14 +54,14 @@
 		"category": "Tools",
 		"entries": [
 			{
-				"name": "React Testing Library",
-				"status": "Development",
-				"url": "https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305"
-			},
-			{
 				"name": "Storybook",
 				"status": "Planned",
 				"url": "https://github.com/storybookjs/storybook/issues/21540"
+			},
+			{
+				"name": "React Testing Library",
+				"status": "Development",
+				"url": "https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305"
 			},
 			{
 				"name": "Mock Service Worker",
