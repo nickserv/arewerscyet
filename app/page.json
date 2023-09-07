@@ -4,8 +4,8 @@
 		"entries": [
 			{
 				"name": "Preact",
-				"status": "Unsupported",
-				"url": "https://github.com/preactjs/preact/discussions/2879#discussioncomment-234815"
+				"status": "Development",
+				"url": "https://github.com/preactjs/preact/discussions/2879#discussioncomment-5274751"
 			},
 			{
 				"name": "React",
@@ -18,6 +18,10 @@
 			},
 			{
 				"name": "Panda",
+				"status": "Stable"
+			},
+			{
+				"name": "Fresh",
 				"status": "Stable"
 			}
 		]
@@ -42,7 +46,7 @@
 			{
 				"name": "Next",
 				"status": "Stable",
-				"url": "https://nextjs.org/docs/app/building-your-application/routing"
+				"url": "https://nextjs.org/docs"
 			}
 		]
 	},
@@ -51,7 +55,7 @@
 		"entries": [
 			{
 				"name": "React Testing Library",
-				"status": "Planned",
+				"status": "Development",
 				"url": "https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305"
 			},
 			{
