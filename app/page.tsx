@@ -6,8 +6,8 @@ export default function Home() {
 	const statusEmoji = new Map([
 		["Unsupported", "🚫"],
 		["Planned", "💬"],
-		["Canary", "🦜"],
 		["Development", "💻"],
+		["Canary", "🦜"],
 		["Stable", "✅"],
 	]);
 
