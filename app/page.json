@@ -1,4 +1,4 @@
-﻿[
+[
 	{
 		"category": "Frameworks",
 		"entries": [
@@ -11,14 +11,6 @@
 				"name": "React",
 				"status": "Canary",
 				"url": "https://react.dev/blog/2023/05/03/react-canaries"
-			},
-			{
-				"name": "Tailwind",
-				"status": "Stable"
-			},
-			{
-				"name": "Panda",
-				"status": "Stable"
 			},
 			{
 				"name": "Fresh",
@@ -135,7 +127,8 @@
 				"name": "PostCSS"
 			},
 			{
-				"name": "tailwindcss",
+				"name": "Tailwind",
+				"status": "Stable",
 				"url": "https://tailwindcss.com/"
 			},
 			{
@@ -143,7 +136,8 @@
 				"url": "https://kuma-ui.com/"
 			},
 			{
-				"name": "pandacss",
+				"name": "Panda",
+				"status": "Stable",
 				"url": "https://panda-css.com/"
 			},
 			{
