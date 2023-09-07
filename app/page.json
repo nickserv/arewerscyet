@@ -101,7 +101,12 @@
 			{
 				"name": "spectacle",
 				"url": "https://formidable.com/open-source/spectacle/docs/tutorial/#option-two-using-nextjs-app-router-to-bootstrap-a-react-based-spectacle-app"
-			},
+			}
+		]
+	},
+	{
+		"category": "Content",
+		"entries": [
 			{
 				"name": "@storyblok/react",
 				"url": "https://github.com/storyblok/storyblok-react"
@@ -117,7 +122,12 @@
 			{
 				"name": "react-datocms",
 				"url": "https://www.npmjs.com/package/react-datocms/v/4.1.3"
-			},
+			}
+		]
+	},
+	{
+		"category": "Styling",
+		"entries": [
 			{
 				"name": "CSS Modules"
 			},
@@ -155,7 +165,12 @@
 			{
 				"name": "rewind-ui",
 				"url": "https://github.com/rewindui/rewindui"
-			},
+			}
+		]
+	},
+	{
+		"category": "Client Components",
+		"entries": [
 			{
 				"name": "@mui/material",
 				"url": "https://mui.com/material-ui/guides/next-js-app-router/"
