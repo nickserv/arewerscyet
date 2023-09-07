@@ -7,7 +7,7 @@ export default function Home() {
 		["Unsupported", "🚫"],
 		["Planned", "💬"],
 		["Canary", "🦜"],
-		["In development", "💻"],
+		["Development", "💻"],
 		["Stable", "✅"],
 	]);
 

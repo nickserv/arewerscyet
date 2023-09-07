@@ -61,7 +61,7 @@
 			},
 			{
 				"name": "Mock Service Worker",
-				"status": "In development",
+				"status": "Development",
 				"url": "https://github.com/mswjs/msw/pull/1617"
 			},
 			{
