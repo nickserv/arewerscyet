@@ -31,7 +31,10 @@ export default function Home() {
 									<a href={url}>{name}</a>
 								</h3>
 								<p>
-									<span aria-hidden>{statusEmoji.get(status)}</span> {status}
+									<span className="emoji" aria-hidden>
+										{statusEmoji.get(status)}
+									</span>{" "}
+									{status}
 								</p>
 							</article>
 						))}
