@@ -25,7 +25,7 @@ export default function Home() {
 				{data.map(({ category, entries }) => (
 					<section key={category}>
 						<h2>{category}</h2>
-						{entries.map(({ name, status, url }) => (
+						{entries.map(({ name, status, url, client }) => (
 							<article key={name} aria-label={name}>
 								<h3>
 									<a href={url}>{name}</a>
@@ -36,6 +36,11 @@ export default function Home() {
 									</span>{" "}
 									{status}
 								</p>
+								{client && (
+									<p>
+										<span className="emoji">⚠️</span> Client
+									</p>
+								)}
 							</article>
 						))}
 					</section>

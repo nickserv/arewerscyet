@@ -101,6 +101,24 @@
 				"name": "Spectacle",
 				"status": "Stable",
 				"url": "https://formidable.com/open-source/spectacle/docs/tutorial/#option-two-using-nextjs-app-router-to-bootstrap-a-react-based-spectacle-app"
+			},
+			{
+				"name": "TanStack Query",
+				"status": "Stable",
+				"url": "https://tanstack.com/query/v4/docs/react/guides/ssr#using-the-app-directory-in-nextjs-13",
+				"client": true
+			},
+			{
+				"name": "Apollo Client",
+				"status": "Experimental",
+				"url": "https://github.com/apollographql/apollo-client-nextjs",
+				"client": true
+			},
+			{
+				"name": "React Wrap Balancer",
+				"status": "Stable",
+				"url": "https://react-wrap-balancer.vercel.app/",
+				"client": true
 			}
 		]
 	},
@@ -181,31 +199,12 @@
 				"name": "Rewind-UI",
 				"status": "Stable",
 				"url": "https://github.com/rewindui/rewindui"
-			}
-		]
-	},
-	{
-		"category": "Client Components",
-		"entries": [
+			},
 			{
 				"name": "MUI",
 				"status": "Stable",
-				"url": "https://mui.com/material-ui/guides/next-js-app-router/"
-			},
-			{
-				"name": "TanStack Query",
-				"status": "Stable",
-				"url": "https://tanstack.com/query/v4/docs/react/guides/ssr#using-the-app-directory-in-nextjs-13"
-			},
-			{
-				"name": "Apollo Client",
-				"status": "Experimental",
-				"url": "https://github.com/apollographql/apollo-client-nextjs"
-			},
-			{
-				"name": "React Wrap Balancer",
-				"status": "Stable",
-				"url": "https://react-wrap-balancer.vercel.app/"
+				"url": "https://mui.com/material-ui/guides/next-js-app-router/",
+				"client": true
 			}
 		]
 	}
