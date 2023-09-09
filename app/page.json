@@ -71,12 +71,12 @@
 		"category": "Libraries",
 		"entries": [
 			{
-				"name": "bright",
+				"name": "Bright",
 				"status": "Stable",
 				"url": "https://github.com/code-hike/bright"
 			},
 			{
-				"name": "rehype-pretty-code",
+				"name": "Rehype Pretty Code",
 				"status": "Stable",
 				"url": "https://rehype-pretty-code.netlify.app"
 			},
@@ -96,7 +96,7 @@
 				"url": "https://github.com/schemburkar/react-graphs-svg"
 			},
 			{
-				"name": "spectacle",
+				"name": "Spectacle",
 				"status": "Stable",
 				"url": "https://formidable.com/open-source/spectacle/docs/tutorial/#option-two-using-nextjs-app-router-to-bootstrap-a-react-based-spectacle-app"
 			}
@@ -106,22 +106,22 @@
 		"category": "Content",
 		"entries": [
 			{
-				"name": "@storyblok/react",
+				"name": "Storyblok",
 				"status": "Stable",
 				"url": "https://github.com/storyblok/storyblok-react"
 			},
 			{
-				"name": "@portabletext/react",
+				"name": "Portable Text",
 				"status": "Stable",
 				"url": "https://github.com/portabletext/react-portabletext"
 			},
 			{
-				"name": "contentlayer",
+				"name": "Contentlayer",
 				"status": "Beta",
 				"url": "https://www.contentlayer.dev/"
 			},
 			{
-				"name": "react-datocms",
+				"name": "DatoCMS",
 				"status": "Stable",
 				"url": "https://www.npmjs.com/package/react-datocms/v/4.1.3"
 			}
@@ -144,7 +144,7 @@
 				"url": "https://tailwindcss.com/"
 			},
 			{
-				"name": "kuma-ui",
+				"name": "Kuma UI",
 				"status": "Stable",
 				"url": "https://kuma-ui.com/"
 			},
@@ -159,22 +159,22 @@
 				"url": "https://github.com/johanholmerin/style9"
 			},
 			{
-				"name": "tamagui",
+				"name": "Tamagui",
 				"status": "Stable",
 				"url": "https://tamagui.dev/docs/guides/next-js#server-components"
 			},
 			{
-				"name": "tss-react",
+				"name": "TSS React",
 				"status": "Stable",
 				"url": "https://tss-react.dev/"
 			},
 			{
-				"name": "vanilla-extract",
+				"name": "Vanilla Extract",
 				"status": "Stable",
 				"url": "https://github.com/vercel/next.js/tree/canary/examples/with-vanilla-extract"
 			},
 			{
-				"name": "rewind-ui",
+				"name": "Rewind-UI",
 				"status": "Stable",
 				"url": "https://github.com/rewindui/rewindui"
 			}
@@ -184,22 +184,22 @@
 		"category": "Client Components",
 		"entries": [
 			{
-				"name": "@mui/material",
+				"name": "MUI",
 				"status": "Stable",
 				"url": "https://mui.com/material-ui/guides/next-js-app-router/"
 			},
 			{
-				"name": "@tanstack/react-query",
+				"name": "TanStack Query",
 				"status": "Stable",
 				"url": "https://tanstack.com/query/v4/docs/react/guides/ssr#using-the-app-directory-in-nextjs-13"
 			},
 			{
-				"name": "@apollo/experimental-nextjs-app-support",
+				"name": "Apollo Client",
 				"status": "Experimental",
 				"url": "https://github.com/apollographql/apollo-client-nextjs"
 			},
 			{
-				"name": "react-wrap-balancer",
+				"name": "React Wrap Balancer",
 				"status": "Stable",
 				"url": "https://react-wrap-balancer.vercel.app/"
 			}
