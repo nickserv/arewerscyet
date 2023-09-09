@@ -73,6 +73,29 @@
 		"category": "Libraries",
 		"entries": [
 			{
+				"name": "Apollo Client",
+				"status": "Experimental",
+				"url": "https://github.com/apollographql/apollo-client-nextjs",
+				"client": true
+			},
+			{
+				"name": "react-graphs-svg",
+				"status": "Alpha",
+				"url": "https://github.com/schemburkar/react-graphs-svg"
+			},
+			{
+				"name": "TanStack Query",
+				"status": "Stable",
+				"url": "https://tanstack.com/query/v4/docs/react/guides/ssr#using-the-app-directory-in-nextjs-13",
+				"client": true
+			},
+			{
+				"name": "React Wrap Balancer",
+				"status": "Stable",
+				"url": "https://react-wrap-balancer.vercel.app/",
+				"client": true
+			},
+			{
 				"name": "Bright",
 				"status": "Stable",
 				"url": "https://github.com/code-hike/bright"
@@ -93,38 +116,20 @@
 				"url": "https://react-tweet.vercel.app/"
 			},
 			{
-				"name": "react-graphs-svg",
-				"status": "Alpha",
-				"url": "https://github.com/schemburkar/react-graphs-svg"
-			},
-			{
 				"name": "Spectacle",
 				"status": "Stable",
 				"url": "https://formidable.com/open-source/spectacle/docs/tutorial/#option-two-using-nextjs-app-router-to-bootstrap-a-react-based-spectacle-app"
-			},
-			{
-				"name": "TanStack Query",
-				"status": "Stable",
-				"url": "https://tanstack.com/query/v4/docs/react/guides/ssr#using-the-app-directory-in-nextjs-13",
-				"client": true
-			},
-			{
-				"name": "Apollo Client",
-				"status": "Experimental",
-				"url": "https://github.com/apollographql/apollo-client-nextjs",
-				"client": true
-			},
-			{
-				"name": "React Wrap Balancer",
-				"status": "Stable",
-				"url": "https://react-wrap-balancer.vercel.app/",
-				"client": true
 			}
 		]
 	},
 	{
 		"category": "Content",
 		"entries": [
+			{
+				"name": "Contentlayer",
+				"status": "Beta",
+				"url": "https://www.contentlayer.dev/"
+			},
 			{
 				"name": "Storyblok",
 				"status": "Stable",
@@ -136,11 +141,6 @@
 				"url": "https://github.com/portabletext/react-portabletext"
 			},
 			{
-				"name": "Contentlayer",
-				"status": "Beta",
-				"url": "https://www.contentlayer.dev/"
-			},
-			{
 				"name": "DatoCMS",
 				"status": "Stable",
 				"url": "https://www.npmjs.com/package/react-datocms/v/4.1.3"
@@ -150,6 +150,12 @@
 	{
 		"category": "Styling",
 		"entries": [
+			{
+				"name": "MUI",
+				"status": "Stable",
+				"url": "https://mui.com/material-ui/guides/next-js-app-router/",
+				"client": true
+			},
 			{
 				"name": "CSS Modules",
 				"status": "Stable",
@@ -199,12 +205,6 @@
 				"name": "Rewind-UI",
 				"status": "Stable",
 				"url": "https://github.com/rewindui/rewindui"
-			},
-			{
-				"name": "MUI",
-				"status": "Stable",
-				"url": "https://mui.com/material-ui/guides/next-js-app-router/",
-				"client": true
 			}
 		]
 	}
