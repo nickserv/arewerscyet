@@ -14,7 +14,8 @@
 			},
 			{
 				"name": "Fresh",
-				"status": "Stable"
+				"status": "Stable",
+				"url": "https://fresh.deno.dev/docs/concepts/server-components"
 			}
 		]
 	},
@@ -23,7 +24,8 @@
 		"entries": [
 			{
 				"name": "Astro",
-				"status": "Unsupported"
+				"status": "Unsupported",
+				"url": "https://astro.build/"
 			},
 			{
 				"name": "Remix",
@@ -132,11 +134,13 @@
 		"entries": [
 			{
 				"name": "CSS Modules",
-				"status": "Stable"
+				"status": "Stable",
+				"url": "https://github.com/css-modules/css-modules"
 			},
 			{
 				"name": "PostCSS",
-				"status": "Stable"
+				"status": "Stable",
+				"url": "https://postcss.org/"
 			},
 			{
 				"name": "Tailwind",
