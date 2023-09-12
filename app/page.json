@@ -39,6 +39,11 @@
 				"url": "https://remix.run/blog/react-server-components"
 			},
 			{
+				"name": "create-t3-app",
+				"status": "Development",
+				"url": "https://github.com/t3-oss/create-t3-app/pull/1446"
+			},
+			{
 				"name": "Redwood",
 				"status": "Canary",
 				"url": "https://community.redwoodjs.com/t/react-server-components-rsc/5081"
@@ -47,6 +52,11 @@
 				"name": "Next",
 				"status": "Stable",
 				"url": "https://nextjs.org/docs"
+			},
+			{
+				"name": "create-t3-turbo",
+				"status": "Stable",
+				"url": "https://github.com/t3-oss/create-t3-turbo"
 			}
 		]
 	},
@@ -72,6 +82,21 @@
 				"name": "TypeScript",
 				"status": "Stable",
 				"url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types"
+			}
+		]
+	},
+	{
+		"category": "Libraries",
+		"entries": [
+			{
+				"name": "UploadThing",
+				"status": "Development",
+				"url": "https://github.com/pingdotgg/uploadthing/pull/335"
+			},
+			{
+				"name": "Zact",
+				"status": "Stable",
+				"url": "https://github.com/pingdotgg/zact"
 			}
 		]
 	}
