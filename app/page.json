@@ -33,6 +33,11 @@
 				"url": "https://remix.run/blog/react-server-components"
 			},
 			{
+				"name": "create-t3-app",
+				"status": "Development",
+				"url": "https://github.com/t3-oss/create-t3-app/pull/1446"
+			},
+			{
 				"name": "Redwood",
 				"status": "Canary",
 				"url": "https://community.redwoodjs.com/t/react-server-components-rsc/5081"
@@ -41,6 +46,11 @@
 				"name": "Next",
 				"status": "Stable",
 				"url": "https://nextjs.org/docs"
+			},
+			{
+				"name": "create-t3-turbo",
+				"status": "Stable",
+				"url": "https://github.com/t3-oss/create-t3-turbo"
 			}
 		]
 	},
@@ -72,6 +82,11 @@
 	{
 		"category": "Libraries",
 		"entries": [
+			{
+				"name": "UploadThing",
+				"status": "Development",
+				"url": "https://github.com/pingdotgg/uploadthing/pull/335"
+			},
 			{
 				"name": "Apollo Client",
 				"status": "Experimental",
@@ -119,6 +134,11 @@
 				"name": "Spectacle",
 				"status": "Stable",
 				"url": "https://formidable.com/open-source/spectacle/docs/tutorial/#option-two-using-nextjs-app-router-to-bootstrap-a-react-based-spectacle-app"
+			},
+			{
+				"name": "Zact",
+				"status": "Stable",
+				"url": "https://github.com/pingdotgg/zact"
 			}
 		]
 	},
