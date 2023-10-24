@@ -38,6 +38,21 @@
 				"url": "https://github.com/t3-oss/create-t3-app/pull/1446"
 			},
 			{
+				"name": "Tangle",
+				"status": "Development",
+				"url": "https://github.com/lubieowoce/tangle"
+			},
+			{
+				"name": "Marz",
+				"status": "Development",
+				"url": "https://github.com/hex2f/marz"
+			},
+			{
+				"name": "Waku",
+				"status": "Development",
+				"url": "https://waku.gg/"
+			},
+			{
 				"name": "Redwood",
 				"status": "Canary",
 				"url": "https://community.redwoodjs.com/t/react-server-components-rsc/5081"
