@@ -1,6 +1,6 @@
 # Are we RSC yet?
 
-Open data on React Server Component support
+React Server Components support data
 
 ## Getting Started
 
