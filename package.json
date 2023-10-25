@@ -14,7 +14,7 @@
 		"@types/react-dom": "18.2.5",
 		"eslint": "8.42.0",
 		"eslint-config-next": "13.4.5",
-		"next": "13.4.8",
+		"next": "13.5.0",
 		"prettier": "^3.0.0",
 		"prettier-config-a11y": "^1.1.2",
 		"react": "18.2.0",
