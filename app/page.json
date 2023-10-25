@@ -58,6 +58,11 @@
 				"url": "https://community.redwoodjs.com/t/react-server-components-rsc/5081"
 			},
 			{
+				"name": "Gatsby",
+				"status": "Beta",
+				"url": "https://www.gatsbyjs.com/docs/how-to/performance/partial-hydration/"
+			},
+			{
 				"name": "Next",
 				"status": "Stable",
 				"url": "https://nextjs.org/docs"
