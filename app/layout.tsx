@@ -1,6 +1,7 @@
+import type { Metadata } from "next";
 import Script from "next/script";
 
-export const metadata = {
+export const metadata: Metadata = {
 	title: "Are we RSC yet?",
 	description: "React Server Components support data",
 };
