@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 
-export const metadata: Metadata = {
+export const metadata = {
 	title: "Are we RSC yet?",
 	description: "React Server Components support data",
-};
+} satisfies Metadata;
 
 export default function RootLayout({
 	children,
