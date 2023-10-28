@@ -41,7 +41,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} prettier --check .
       - name: Lint with ESLint
         run: ${{ steps.detect-package-manager.outputs.manager }} run lint
-      - name: Typecheck with TypeScript
+      - name: Type-check with TypeScript
         run: ${{ steps.detect-package-manager.outputs.runner }} tsc
       - name: Spell-check with cspell
         uses: streetsidesoftware/cspell-action@v4
