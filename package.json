@@ -25,12 +25,10 @@
 		"typescript": "^5.1.3"
 	},
 	"cspell": {
-		"dictionaries": [
-			"fullstack"
-		],
 		"words": [
 			"arewerscyet",
 			"astro",
+			"gtag",
 			"marz",
 			"preact",
 			"waku",
