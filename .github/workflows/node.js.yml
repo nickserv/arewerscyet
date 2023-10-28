@@ -43,5 +43,5 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} run lint
       - name: Type-check with TypeScript
         run: ${{ steps.detect-package-manager.outputs.runner }} tsc
-      - name: Spell-check with cspell
+      - name: Spell-check with CSpell
         uses: streetsidesoftware/cspell-action@v4
