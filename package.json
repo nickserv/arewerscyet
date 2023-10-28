@@ -31,9 +31,11 @@
 			"gtag",
 			"marz",
 			"preact",
+			"rsc",
 			"waku",
 			"zact"
-		]
+		],
+		"minWordLength": 3
 	},
 	"eslintConfig": {
 		"extends": "next/core-web-vitals"
