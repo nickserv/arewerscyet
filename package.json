@@ -35,7 +35,8 @@
 			"waku",
 			"zact"
 		],
-		"minWordLength": 3
+		"minWordLength": 3,
+		"useGitignore": true
 	},
 	"eslintConfig": {
 		"extends": "next/core-web-vitals"
