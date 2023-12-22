@@ -1,5 +1,5 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
-import Script from "next/script";
 
 export const metadata = {
 	title: "Are we RSC yet?",
@@ -13,16 +13,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<Script src="https://www.googletagmanager.com/gtag/js?id=UA-22970573-1" />
-			<Script id="google-analytics">
-				{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-22970573-1');
-        `}
-			</Script>
+			<GoogleAnalytics gaId="UA-22970573-1" />
 			<body>{children}</body>
 		</html>
 	);
