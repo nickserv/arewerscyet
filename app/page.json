@@ -13,16 +13,9 @@
 				"url": "https://react.dev/blog/2023/05/03/react-canaries"
 			},
 			{
-				"name": "Tailwind",
-				"status": "Stable"
-			},
-			{
-				"name": "Panda",
-				"status": "Stable"
-			},
-			{
 				"name": "Fresh",
-				"status": "Stable"
+				"status": "Stable",
+				"url": "https://fresh.deno.dev/docs/concepts/server-components"
 			}
 		]
 	},
@@ -31,7 +24,8 @@
 		"entries": [
 			{
 				"name": "Astro",
-				"status": "Unsupported"
+				"status": "Unsupported",
+				"url": "https://astro.build/"
 			},
 			{
 				"name": "Remix",
@@ -62,6 +56,11 @@
 				"name": "Redwood",
 				"status": "Canary",
 				"url": "https://community.redwoodjs.com/t/react-server-components-rsc/5081"
+			},
+			{
+				"name": "Gatsby",
+				"status": "Beta",
+				"url": "https://www.gatsbyjs.com/docs/how-to/performance/partial-hydration/"
 			},
 			{
 				"name": "Next",
@@ -109,9 +108,143 @@
 				"url": "https://github.com/pingdotgg/uploadthing/pull/335"
 			},
 			{
+				"name": "Apollo Client",
+				"status": "Experimental",
+				"url": "https://github.com/apollographql/apollo-client-nextjs",
+				"client": true
+			},
+			{
+				"name": "react-graphs-svg",
+				"status": "Alpha",
+				"url": "https://github.com/schemburkar/react-graphs-svg"
+			},
+			{
+				"name": "TanStack Query",
+				"status": "Stable",
+				"url": "https://tanstack.com/query/v4/docs/react/guides/ssr#using-the-app-directory-in-nextjs-13",
+				"client": true
+			},
+			{
+				"name": "React Wrap Balancer",
+				"status": "Stable",
+				"url": "https://react-wrap-balancer.vercel.app/",
+				"client": true
+			},
+			{
+				"name": "Bright",
+				"status": "Stable",
+				"url": "https://github.com/code-hike/bright"
+			},
+			{
+				"name": "Rehype Pretty Code",
+				"status": "Stable",
+				"url": "https://rehype-pretty-code.netlify.app"
+			},
+			{
+				"name": "react-perfect-syntax-highlighter",
+				"status": "Stable",
+				"url": "https://github.com/tom-sherman/react-perfect-syntax-highlighter"
+			},
+			{
+				"name": "react-tweet",
+				"status": "Stable",
+				"url": "https://react-tweet.vercel.app/"
+			},
+			{
+				"name": "Spectacle",
+				"status": "Stable",
+				"url": "https://formidable.com/open-source/spectacle/docs/tutorial/#option-two-using-nextjs-app-router-to-bootstrap-a-react-based-spectacle-app"
+			},
+			{
 				"name": "Zact",
 				"status": "Stable",
 				"url": "https://github.com/pingdotgg/zact"
+			}
+		]
+	},
+	{
+		"category": "Content",
+		"entries": [
+			{
+				"name": "Contentlayer",
+				"status": "Beta",
+				"url": "https://www.contentlayer.dev/"
+			},
+			{
+				"name": "Storyblok",
+				"status": "Stable",
+				"url": "https://github.com/storyblok/storyblok-react"
+			},
+			{
+				"name": "Portable Text",
+				"status": "Stable",
+				"url": "https://github.com/portabletext/react-portabletext"
+			},
+			{
+				"name": "DatoCMS",
+				"status": "Stable",
+				"url": "https://www.npmjs.com/package/react-datocms/v/4.1.3"
+			}
+		]
+	},
+	{
+		"category": "Styling",
+		"entries": [
+			{
+				"name": "MUI",
+				"status": "Stable",
+				"url": "https://mui.com/material-ui/guides/next-js-app-router/",
+				"client": true
+			},
+			{
+				"name": "CSS Modules",
+				"status": "Stable",
+				"url": "https://github.com/css-modules/css-modules"
+			},
+			{
+				"name": "PostCSS",
+				"status": "Stable",
+				"url": "https://postcss.org/"
+			},
+			{
+				"name": "Tailwind",
+				"status": "Stable",
+				"url": "https://tailwindcss.com/"
+			},
+			{
+				"name": "Kuma UI",
+				"status": "Stable",
+				"url": "https://kuma-ui.com/"
+			},
+			{
+				"name": "Panda",
+				"status": "Stable",
+				"url": "https://panda-css.com/"
+			},
+			{
+				"name": "style9",
+				"status": "Stable",
+				"url": "https://github.com/johanholmerin/style9"
+			},
+			{
+				"name": "Tamagui",
+				"status": "Stable",
+				"url": "https://tamagui.dev/docs/guides/next-js#server-components"
+			},
+			{
+				"name": "TSS React",
+				"status": "Stable",
+				"url": "https://tss-react.dev/"
+			},
+			{
+				"name": "Vanilla Extract",
+				"status": "Stable",
+				"url": "https://github.com/vercel/next.js/tree/canary/examples/with-vanilla-extract"
+			},
+			{
+				"name": "Rewind-UI",
+				"status": "Stable",
+				"url": "https://github.com/rewindui/rewindui"
 			}
 		]
 	}

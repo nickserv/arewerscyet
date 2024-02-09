@@ -9,3 +9,8 @@ html {
 a {
 	text-decoration: none;
 }
+
+/* Fix colored emoji variation selector in Chromium https://crbug.com/1480245 */
+.emoji {
+	font-family: emoji;
+}
